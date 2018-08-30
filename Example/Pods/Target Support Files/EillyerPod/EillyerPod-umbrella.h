@@ -11,6 +11,7 @@
 #endif
 
 #import "EillyerPod.h"
+#import "LocationManager.h"
 #import "LYLView.h"
 
 FOUNDATION_EXPORT double EillyerPodVersionNumber;

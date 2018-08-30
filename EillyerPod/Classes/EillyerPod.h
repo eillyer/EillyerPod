@@ -16,5 +16,6 @@
 #define EillyerPod_h
 
 #import "LYLView.h"
+#import "LocationManager.h"
 
 #endif /* EillyerPod_h */
