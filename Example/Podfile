@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EillyerPod_Example' do
+  pod 'EillyerPod', :path => '../'
+
+  target 'EillyerPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
