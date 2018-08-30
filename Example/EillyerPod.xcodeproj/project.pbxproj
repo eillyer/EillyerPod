@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		01F971B67FF578CDBDFB2E03 /* Pods-EillyerPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EillyerPod_Example.release.xcconfig"; path = "Target Support Files/Pods-EillyerPod_Example/Pods-EillyerPod_Example.release.xcconfig"; sourceTree = "<group>"; };
-		054F6F7F2DFCC664EAB7B7F5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		054F6F7F2DFCC664EAB7B7F5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1469DE2B304E6F8C18C941CA /* Pods_EillyerPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EillyerPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* EillyerPod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EillyerPod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,11 +59,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6939898C7A277BD8F677A305 /* EillyerPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EillyerPod.podspec; path = ../EillyerPod.podspec; sourceTree = "<group>"; };
+		6939898C7A277BD8F677A305 /* EillyerPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EillyerPod.podspec; path = ../EillyerPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		749B9B6025F3AFAA68F90DE7 /* Pods-EillyerPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EillyerPod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-EillyerPod_Tests/Pods-EillyerPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		949EC134644BD29C33C252D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		949EC134644BD29C33C252D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B8B78A5465C06CF8014868A7 /* Pods-EillyerPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EillyerPod_Example.debug.xcconfig"; path = "Target Support Files/Pods-EillyerPod_Example/Pods-EillyerPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D1F118E95A5FDB978F5C4F6A /* Pods_EillyerPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EillyerPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E9FCC33132F1B81E0DA9DE /* Pods-EillyerPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EillyerPod_Tests.release.xcconfig"; path = "Target Support Files/Pods-EillyerPod_Tests/Pods-EillyerPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 				749B9B6025F3AFAA68F90DE7 /* Pods-EillyerPod_Tests.debug.xcconfig */,
 				F9E9FCC33132F1B81E0DA9DE /* Pods-EillyerPod_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -300,15 +299,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-EillyerPod_Tests-checkManifestLockResult.txt",
 			);
@@ -322,15 +317,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-EillyerPod_Example/Pods-EillyerPod_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/EillyerPod/EillyerPod.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EillyerPod.framework",
 			);
@@ -344,15 +335,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-EillyerPod_Example-checkManifestLockResult.txt",
 			);

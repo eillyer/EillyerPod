@@ -1,0 +1,6 @@
+framework module EillyerPod {
+  umbrella header "EillyerPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

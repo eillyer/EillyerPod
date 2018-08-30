@@ -1,0 +1,26 @@
+{
+  "name": "EillyerPod",
+  "version": "0.1.0",
+  "summary": "A short description of EillyerPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/eillyer/EillyerPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "eillyer": "475124896@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/eillyer/EillyerPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "EillyerPod/Classes/**/*.{h,m}",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ]
+}

@@ -1,0 +1,16 @@
+PODS:
+  - EillyerPod (0.1.0)
+
+DEPENDENCIES:
+  - EillyerPod (from `../`)
+
+EXTERNAL SOURCES:
+  EillyerPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EillyerPod: 684d57c5ae079f2562f42bbf490bcf025c65646d
+
+PODFILE CHECKSUM: c766c6c713e85ad09062a77f1b53966b71cc2152
+
+COCOAPODS: 1.6.0.beta.1
