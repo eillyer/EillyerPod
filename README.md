@@ -17,7 +17,7 @@ EillyerPod is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'EillyerPod'
+   pod 'EillyerPod', :git =>  'https://github.com/eillyer/EillyerPod.git'
 ```
 
 ## Author
